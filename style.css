@@ -261,7 +261,16 @@
 }
 
 /* HAPE 6 INCI VIEW */
-@media (min-width: 375px) {
+@media (min-width: 375px), (min-height: 812px) {
+
+    .card {
+        margin-left: 40px;
+    }
+
+}
+
+/* HAPE 5 INCI VIEW */
+@media (min-width: 360px), (min-height: 740px) {
 
     .card {
         margin-left: 40px;
